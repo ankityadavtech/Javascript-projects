@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="age-app">
+
+        <div class="glass-card">
+
+            <div class="top-section">
+                <h1>Age Calculator</h1>
+                <p>Find your exact age in years, months & days</p>
+            </div>
+
+            <div class="input-group">
+                <label>Select Your Date of Birth</label>
+                <input type="date" id="dob">
+            </div>
+
+            <button class="calc-btn" onclick="CalculateAge()">
+                Calculate Age
+            </button>
+
+            <div class="result-container">
+
+                <div class="result-card">
+                    <h2 id="years">21</h2>
+                    <span>Years</span>
+                </div>
+
+                <div class="result-card">
+                    <h2 id="months">05</h2>
+                    <span>Months</span>
+                </div>
+
+                <div class="result-card">
+                    <h2 id="days">12</h2>
+                    <span>Days</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>
