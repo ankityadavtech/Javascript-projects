@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="bmi-app">
+
+        <div class="glass-card">
+
+            <div class="top-section">
+                <h1>BMI Calculator</h1>
+                <p>Check your body mass index instantly</p>
+            </div>
+
+            <div class="input-group">
+                <label>Weight (kg)</label>
+                <input type="number" placeholder="Enter weight" id="Weight">
+            </div>
+
+            <div class="input-group">
+                <label>Height (cm)</label>
+                <input type="number" placeholder="Enter height in centimeters" id="Height">
+            </div>
+
+            <button class="calc-btn" onclick="calculatrBMI()">
+                Calculate BMI
+            </button>
+
+            <div class="result-box">
+
+                <h2 id="bmi-value">22.8</h2>
+
+                <span id="bmi-status">Normal Weight</span>
+
+            </div>
+
+        </div>
+
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>
